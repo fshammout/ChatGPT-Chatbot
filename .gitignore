@@ -1,0 +1,22 @@
+/.env.local
+/.vscode
+/api_log.txt
+/chatcsv.py
+/Chinook.db
+/DemoApp.ipynb
+/flagged
+/Knowledge
+/Notebook.ipynb
+/qryExportAssessment_Responses.csv
+/qryExportAssessment_Responses1 - Copy.csv
+/qryExportAssessment_Responses1.csv
+/qryExportAssessment_Responses2.csv
+/reindex.ipynb
+/testapp.ipynb
+/test_translated.csv
+/translation_cache.bak
+/translation_cache.dat
+/translation_cache.dir
+/untitled.txt
+/upload-files.JSONL
+/vectorIndex.json
