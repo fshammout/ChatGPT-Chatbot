@@ -6,8 +6,8 @@ import tiktoken
 import numpy as np
 
 #if you have OpenAI API key as a string, enable the below
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = ""
+openai.api_key = ""
 
 
 embedding_encoding = "cl100k_base"
