@@ -6,35 +6,9 @@ from langchain.agents import create_csv_agent
 from langchain import OpenAI
 from llama_index import download_loader
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 vectorIndex = None
-
-# def createVectorIndex(uploaded_file):
-#     max_input = 4000
-#     tokens = 256
-#     chunk_size = 3000
-#     max_chunk_overlap = 20
-
-#     prompt_helper = PromptHelper(
-#         max_input, tokens, max_chunk_overlap, chunk_size_limit=chunk_size)
-
-#     llmPredictor = LLMPredictor(llm=OpenAI(
-#         temperature=0, model_name="text-davinci-003", max_tokens=tokens, memory=ConversationBufferWindowMemory(k=2)))
-
-#     PandasCSVReader = download_loader("PandasCSVReader")
-#     loader = PandasCSVReader()
-#     file_path = uploaded_file.name
-#     docs = loader.load_data(file=file_path)
-
-#     service_context = ServiceContext.from_defaults(
-#         llm_predictor=llmPredictor, prompt_helper=prompt_helper)
-
-#     global vectorIndex
-#     vectorIndex = GPTSimpleVectorIndex.from_documents(
-#         documents=docs, service_context=service_context)
-
-#     return('Index saved successfully!')
 
 
 def createVectorIndex(uploaded_file):
