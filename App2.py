@@ -7,7 +7,7 @@ from langchain import OpenAI
 from llama_index import download_loader
 import openai
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 vectorIndex = None
 
